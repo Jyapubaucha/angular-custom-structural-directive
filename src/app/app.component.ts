@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-custom-structural-directive';
+  display: boolean = false;
+
+  displayTermsAndPolicy(){
+    this.display = true;
+  }
 }
